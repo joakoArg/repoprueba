@@ -12,3 +12,11 @@ function suma(x, y) {
   estoy aprendiendo hacer un commit jajajaajajajajajajaja
 
 return false o true es booleano
+
+me paro en la carpeta que cree 
+luego code .
+abre el visual studio editar el repositorio
+luego git add .
+luego git commit -m "mensaje en comillas"
+luego git push 
+surgen los cambios en el repo de git hub
