@@ -42,3 +42,29 @@ Este código es la estructura básica de cualquier programa Java. Define un mét
 Dentro del método "main" es donde se escribe el código específico del programa, por lo que se utiliza para iniciar cualquier tarea o proceso que el programa deba realizar. Por ejemplo, se puede utilizar para imprimir mensajes en la consola, solicitar entrada del usuario, realizar cálculos matemáticos, entre otras tareas.
 
 Este código es esencial para cualquier programador de Java, ya que sin él no se puede ejecutar ningún programa Java.
+
+
+
+import java.util.Scanner;
+
+public class SumaResta {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("8: ");
+        int num1 = input.nextInt();
+        
+        System.out.print("9: ");
+        int num2 = input.nextInt();
+        
+        int suma = num1 + num2;
+        int resta = num1 - num2;
+        
+        System.out.println("La suma de los números es: " + suma);
+        System.out.println("La resta de los números es: " + resta);
+        
+        input.close();
+    }
+}
+
+Este programa primero importa la clase Scanner para poder leer la entrada del usuario. Luego, pide al usuario que ingrese dos números enteros y los guarda en las variables num1 y num2. A continuación, realiza la suma y resta de los números y los guarda en las variables suma y resta. Por último, imprime los resultados en la consola utilizando la función System.out.println().
